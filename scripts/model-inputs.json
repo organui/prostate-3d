@@ -1,0 +1,185 @@
+{
+  "bp30": {
+    "repository": "https://github.com/Kevin-Mattheus-Moerman/BodyParts3D",
+    "commit": "f0eeb6e843380cfe6b83797cf8c3e1af74de5e61",
+    "release": "BodyParts3D 3.0 (20110915, BodyParts3D_3.0_obj_95), converted to binary STL by the mirror",
+    "partsList": {
+      "file": "parts_list_e.txt",
+      "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/parts_list_e.txt",
+      "sha256": "824a34ed939a53375037d0d68b88ad2b63b1f0ae15a585632af2a63c2ab2e4af"
+    },
+    "stls": [
+      {
+        "id": "FMA9600",
+        "file": "FMA9600.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA9600.stl",
+        "sha256": "5d7c40ff0761ea8f467cff6e07391436ff8d0ae875d65badb50b5cee4a0c223b",
+        "bytes": 87784
+      },
+      {
+        "id": "FMA19387",
+        "file": "FMA19387.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA19387.stl",
+        "sha256": "d19b487dc15d6d73bd4b1bb1e8941e682524c89748ada8db0cfcf27be380aa41",
+        "bytes": 54284
+      },
+      {
+        "id": "FMA19388",
+        "file": "FMA19388.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA19388.stl",
+        "sha256": "47b561edb6354b5d71ef91526625972422b4124f7bbbb0a16b5e0b2b65ea27f8",
+        "bytes": 54084
+      },
+      {
+        "id": "FMA7211",
+        "file": "FMA7211.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA7211.stl",
+        "sha256": "a0f7ad9cd379ffeff78bc52184a639d781289089d98324fae638ff1f4de6b7da",
+        "bytes": 13984
+      },
+      {
+        "id": "FMA7212",
+        "file": "FMA7212.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA7212.stl",
+        "sha256": "765d8992a6cf1096b07502c0a67af9e78aa980834fc33aa7e0fd3486f0dfc4c9",
+        "bytes": 14084
+      },
+      {
+        "id": "FMA18256",
+        "file": "FMA18256.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA18256.stl",
+        "sha256": "cf6d172c6544cc277bbdbf2a9f9c948aae4ee803d7168367542efefc234f01b0",
+        "bytes": 6084
+      },
+      {
+        "id": "FMA18257",
+        "file": "FMA18257.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA18257.stl",
+        "sha256": "fd9e19925b5981624a84fe777b59f6062a0c1876196abeebdd51d033831a3058",
+        "bytes": 24284
+      },
+      {
+        "id": "FMA19235",
+        "file": "FMA19235.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA19235.stl",
+        "sha256": "87c1b7ffbe23abac94b16a3b7482eab1970532d6c0d44c17684b84de69af6f63",
+        "bytes": 75284
+      },
+      {
+        "id": "FMA19236",
+        "file": "FMA19236.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA19236.stl",
+        "sha256": "12380e70d6a3e418cd404c63468d5f87462a0063671d4d0d2bdb502d6de87c13",
+        "bytes": 74984
+      },
+      {
+        "id": "FMA19618",
+        "file": "FMA19618.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA19618.stl",
+        "sha256": "3167047dbe8249f496d53856203cb1412f56c6de3d03f33f4c31048b76194fdd",
+        "bytes": 243084
+      },
+      {
+        "id": "FMA19617nsn",
+        "file": "FMA19617nsn.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA19617nsn.stl",
+        "sha256": "5f528045de8e0222d75e74ba94d90bb87fabeaffc3544cc84ec5580d6c7b3da6",
+        "bytes": 110184
+      },
+      {
+        "id": "FMA18247",
+        "file": "FMA18247.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA18247.stl",
+        "sha256": "03e1d386e3fe9fd2a38e184c1dc50f9739f69d02c344790145eaf36c544a20ab",
+        "bytes": 262684
+      },
+      {
+        "id": "FMA15900",
+        "file": "FMA15900.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA15900.stl",
+        "sha256": "7a6badc84de63ac6c62acc8c2de1084c19885df1cbceb17ae02354c000a45b68",
+        "bytes": 200884
+      },
+      {
+        "id": "FMA14544",
+        "file": "FMA14544.stl",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/stl/FMA14544.stl",
+        "sha256": "dcbca766ae18f7404082fa34a7a33ed805dd07917ef28097e01e78b4c531df4f",
+        "bytes": 441284
+      }
+    ]
+  },
+  "bp43": {
+    "repository": "https://github.com/olivercase/body_parts_3d_api",
+    "commit": "fd527e6f4daf732fd814314d9257df5877b844bc",
+    "mapping": {
+      "file": "docs/model-source/FMA2Obj-4.3.tsv",
+      "sha256": "c3d16c891016da13447de2fc3241d05d92e8f9dc460e363233c03f420b935d4f"
+    },
+    "objects": [
+      {
+        "id": "FJ2056",
+        "file": "FJ2056.obj",
+        "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2056_BP20844_FMA21354_Deep%20dorsal%20vein%20of%20penis.obj",
+        "sha256": "f3cf0f497517c5ba61d9ec2c7845d1d5bdbc57010f247f5dc356ca1619cca312",
+        "bytes": 145169,
+        "mirrorPath": "meshes/FJ2056_BP20844_FMA21354_Deep dorsal vein of penis.obj",
+        "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2056_BP20844_FMA21354_Deep%20dorsal%20vein%20of%20penis.obj"
+      },
+      {
+        "id": "FJ2208",
+        "file": "FJ2208.obj",
+        "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2208_BP21193_FMA21384_Superficial%20dorsal%20vein%20of%20penis.obj",
+        "sha256": "1c77fab4f49bd9f2edd09d5a7f7337b4b6845246c2acd98ad0e49254177ee205",
+        "bytes": 87861,
+        "mirrorPath": "meshes/FJ2208_BP21193_FMA21384_Superficial dorsal vein of penis.obj",
+        "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2208_BP21193_FMA21384_Superficial%20dorsal%20vein%20of%20penis.obj"
+      },
+      {
+        "id": "FJ3496",
+        "file": "FJ3496.obj",
+        "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3496_BP21108_FMA20819_Left%20dorsal%20artery%20of%20penis.obj",
+        "sha256": "c00e4b69b0a645b56364e6926197eecfc5e39a5674e7847b28f8bedfdd48ab31",
+        "bytes": 337280,
+        "mirrorPath": "meshes/FJ3496_BP21108_FMA20819_Left dorsal artery of penis.obj",
+        "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3496_BP21108_FMA20819_Left%20dorsal%20artery%20of%20penis.obj"
+      },
+      {
+        "id": "FJ3497",
+        "file": "FJ3497.obj",
+        "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3497_BP21108_FMA20819_Left%20dorsal%20artery%20of%20penis.obj",
+        "sha256": "2e87265cfd69c102ff0191f868a71bac7b96a35ee6ad7288b5ff002c24ed14a2",
+        "bytes": 86876,
+        "mirrorPath": "meshes/FJ3497_BP21108_FMA20819_Left dorsal artery of penis.obj",
+        "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3497_BP21108_FMA20819_Left%20dorsal%20artery%20of%20penis.obj"
+      },
+      {
+        "id": "FJ3592",
+        "file": "FJ3592.obj",
+        "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3592_BP21071_FMA20818_Right%20dorsal%20artery%20of%20penis.obj",
+        "sha256": "b4d6f1e09e8d008d935731868cabcc55a52bd8ad6f2dc9b498e9d16ab628f8a4",
+        "bytes": 339533,
+        "mirrorPath": "meshes/FJ3592_BP21071_FMA20818_Right dorsal artery of penis.obj",
+        "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3592_BP21071_FMA20818_Right%20dorsal%20artery%20of%20penis.obj"
+      },
+      {
+        "id": "FJ3593",
+        "file": "FJ3593.obj",
+        "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3593_BP21071_FMA20818_Right%20dorsal%20artery%20of%20penis.obj",
+        "sha256": "d5f402f7635edf03a99aac33cd3ee8d0226d15df2d0e130e99062d876223ba18",
+        "bytes": 92246,
+        "mirrorPath": "meshes/FJ3593_BP21071_FMA20818_Right dorsal artery of penis.obj",
+        "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3593_BP21071_FMA20818_Right%20dorsal%20artery%20of%20penis.obj"
+      },
+      {
+        "id": "FJ3148",
+        "file": "FJ3148.obj",
+        "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3148_BP22605_FMA19667_Urethra.obj",
+        "sha256": "678dc673b3a16e235b2cbd43cd6a8ae209a4e382043cb674620a362b1ae5eebc",
+        "bytes": 34000,
+        "mirrorPath": "meshes/FJ3148_BP22605_FMA19667_Urethra.obj",
+        "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3148_BP22605_FMA19667_Urethra.obj"
+      }
+    ]
+  }
+}

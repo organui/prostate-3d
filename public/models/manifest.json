@@ -1,0 +1,420 @@
+{
+  "dataset": "BodyParts3D / Anatomography",
+  "versions": [
+    "3.0",
+    "4.3"
+  ],
+  "retrieved": "2026-10-16",
+  "license": "CC-BY-SA-2.1-JP",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "sourceLicenseStatement": "https://lifesciencedb.jp/bp3d/info/index.html#License",
+  "credit": "BodyParts3D / Anatomography, © The Database Center for Life Science. CC BY-SA 2.1 Japan. Adapted by OrganUI.",
+  "sources": {
+    "3.0": {
+      "release": "BodyParts3D 3.0 (20110915, BodyParts3D_3.0_obj_95), converted to binary STL by the mirror",
+      "repository": "https://github.com/Kevin-Mattheus-Moerman/BodyParts3D",
+      "commit": "f0eeb6e843380cfe6b83797cf8c3e1af74de5e61",
+      "partsList": {
+        "file": "parts_list_e.txt",
+        "url": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/assets/BodyParts3D_data/parts_list_e.txt",
+        "sha256": "824a34ed939a53375037d0d68b88ad2b63b1f0ae15a585632af2a63c2ab2e4af"
+      }
+    },
+    "4.3": {
+      "variant": "Object set 4.3, ontology tree FMA3.0; official IS-A concept-to-element mapping",
+      "repository": "https://github.com/olivercase/body_parts_3d_api",
+      "commit": "fd527e6f4daf732fd814314d9257df5877b844bc",
+      "mapping": {
+        "file": "docs/model-source/FMA2Obj-4.3.tsv",
+        "sha256": "c3d16c891016da13447de2fc3241d05d92e8f9dc460e363233c03f420b935d4f"
+      }
+    }
+  },
+  "transform": {
+    "sourceBoundsMm": {
+      "min": [
+        -79.55819702148438,
+        -200.9669952392578,
+        689.6480102539062
+      ],
+      "max": [
+        78.1604995727539,
+        -25.033700942993164,
+        888.1510009765625
+      ]
+    },
+    "centerMm": [
+      -0.6988487243652344,
+      -113.00034809112549,
+      788.8995056152344
+    ],
+    "scale": 0.016,
+    "axes": "[x, z, -y]"
+  },
+  "runtime": {
+    "file": "prostate.glb",
+    "bytes": 1250112,
+    "sha256": "614b919eabe128d363511b52f8c8583f49876d62e0aec33d594afe2baee73c1b"
+  },
+  "structures": [
+    {
+      "id": "prostate",
+      "fma": "FMA9600",
+      "source": "3.0",
+      "concepts": [
+        "FMA9600"
+      ],
+      "sourceName": "prostate",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA9600",
+          "concept": "FMA9600",
+          "sourceName": "prostate",
+          "sha256": "5d7c40ff0761ea8f467cff6e07391436ff8d0ae875d65badb50b5cee4a0c223b",
+          "bytes": 87784,
+          "vertices": 879,
+          "triangles": 1754
+        }
+      ]
+    },
+    {
+      "id": "seminal-vesicles",
+      "fma": "FMA19387",
+      "source": "3.0",
+      "concepts": [
+        "FMA19387",
+        "FMA19388"
+      ],
+      "sourceName": "right and left seminal vesicles",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA19387",
+          "concept": "FMA19387",
+          "sourceName": "right seminal vesicle",
+          "sha256": "d19b487dc15d6d73bd4b1bb1e8941e682524c89748ada8db0cfcf27be380aa41",
+          "bytes": 54284,
+          "vertices": 544,
+          "triangles": 1084
+        },
+        {
+          "release": "3.0",
+          "element": "FMA19388",
+          "concept": "FMA19388",
+          "sourceName": "left seminal vesicle",
+          "sha256": "47b561edb6354b5d71ef91526625972422b4124f7bbbb0a16b5e0b2b65ea27f8",
+          "bytes": 54084,
+          "vertices": 542,
+          "triangles": 1080
+        }
+      ]
+    },
+    {
+      "id": "testes",
+      "fma": "FMA7211",
+      "source": "3.0",
+      "concepts": [
+        "FMA7211",
+        "FMA7212"
+      ],
+      "sourceName": "right and left testes",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA7211",
+          "concept": "FMA7211",
+          "sourceName": "right testis",
+          "sha256": "a0f7ad9cd379ffeff78bc52184a639d781289089d98324fae638ff1f4de6b7da",
+          "bytes": 13984,
+          "vertices": 141,
+          "triangles": 278
+        },
+        {
+          "release": "3.0",
+          "element": "FMA7212",
+          "concept": "FMA7212",
+          "sourceName": "left testis",
+          "sha256": "765d8992a6cf1096b07502c0a67af9e78aa980834fc33aa7e0fd3486f0dfc4c9",
+          "bytes": 14084,
+          "vertices": 142,
+          "triangles": 280
+        }
+      ]
+    },
+    {
+      "id": "epididymides",
+      "fma": "FMA18256",
+      "source": "3.0",
+      "concepts": [
+        "FMA18256",
+        "FMA18257"
+      ],
+      "sourceName": "right and left epididymides",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA18256",
+          "concept": "FMA18256",
+          "sourceName": "right epididymis",
+          "sha256": "cf6d172c6544cc277bbdbf2a9f9c948aae4ee803d7168367542efefc234f01b0",
+          "bytes": 6084,
+          "vertices": 60,
+          "triangles": 120
+        },
+        {
+          "release": "3.0",
+          "element": "FMA18257",
+          "concept": "FMA18257",
+          "sourceName": "left epididymis",
+          "sha256": "fd9e19925b5981624a84fe777b59f6062a0c1876196abeebdd51d033831a3058",
+          "bytes": 24284,
+          "vertices": 244,
+          "triangles": 484
+        }
+      ]
+    },
+    {
+      "id": "deferent-ducts",
+      "fma": "FMA19235",
+      "source": "3.0",
+      "concepts": [
+        "FMA19235",
+        "FMA19236"
+      ],
+      "sourceName": "right and left deferent ducts (vas deferens)",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA19235",
+          "concept": "FMA19235",
+          "sourceName": "right deferent duct",
+          "sha256": "87c1b7ffbe23abac94b16a3b7482eab1970532d6c0d44c17684b84de69af6f63",
+          "bytes": 75284,
+          "vertices": 752,
+          "triangles": 1504
+        },
+        {
+          "release": "3.0",
+          "element": "FMA19236",
+          "concept": "FMA19236",
+          "sourceName": "left deferent duct",
+          "sha256": "12380e70d6a3e418cd404c63468d5f87462a0063671d4d0d2bdb502d6de87c13",
+          "bytes": 74984,
+          "vertices": 749,
+          "triangles": 1498
+        }
+      ]
+    },
+    {
+      "id": "corpora-cavernosa",
+      "fma": "FMA19618",
+      "source": "3.0",
+      "concepts": [
+        "FMA19618"
+      ],
+      "sourceName": "corpus cavernosum of penis",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA19618",
+          "concept": "FMA19618",
+          "sourceName": "corpus cavernosum of penis",
+          "sha256": "3167047dbe8249f496d53856203cb1412f56c6de3d03f33f4c31048b76194fdd",
+          "bytes": 243084,
+          "vertices": 2442,
+          "triangles": 4860
+        }
+      ]
+    },
+    {
+      "id": "corpus-spongiosum",
+      "fma": "FMA19617",
+      "source": "3.0",
+      "concepts": [
+        "FMA19617"
+      ],
+      "sourceName": "corpus spongiosum of penis, nsn",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA19617nsn",
+          "concept": "FMA19617",
+          "sourceName": "corpus spongiosum of penis, nsn",
+          "sha256": "5f528045de8e0222d75e74ba94d90bb87fabeaffc3544cc84ec5580d6c7b3da6",
+          "bytes": 110184,
+          "vertices": 1103,
+          "triangles": 2202
+        }
+      ]
+    },
+    {
+      "id": "glans-penis",
+      "fma": "FMA18247",
+      "source": "3.0",
+      "concepts": [
+        "FMA18247"
+      ],
+      "sourceName": "glans penis",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA18247",
+          "concept": "FMA18247",
+          "sourceName": "glans penis",
+          "sha256": "03e1d386e3fe9fd2a38e184c1dc50f9739f69d02c344790145eaf36c544a20ab",
+          "bytes": 262684,
+          "vertices": 2632,
+          "triangles": 5252
+        }
+      ]
+    },
+    {
+      "id": "urethra",
+      "fma": "FMA19667",
+      "source": "4.3",
+      "concepts": [
+        "FMA19667"
+      ],
+      "sourceName": "urethra",
+      "elements": [
+        {
+          "release": "4.3",
+          "element": "FJ3148",
+          "concept": "FMA19667",
+          "sourceName": "Urethra",
+          "sha256": "678dc673b3a16e235b2cbd43cd6a8ae209a4e382043cb674620a362b1ae5eebc",
+          "bytes": 34000,
+          "vertices": 358,
+          "triangles": 440
+        }
+      ]
+    },
+    {
+      "id": "dorsal-arteries",
+      "fma": "FMA20818",
+      "source": "4.3",
+      "concepts": [
+        "FMA20818",
+        "FMA20819"
+      ],
+      "sourceName": "right and left dorsal arteries of penis",
+      "elements": [
+        {
+          "release": "4.3",
+          "element": "FJ3592",
+          "concept": "FMA20818",
+          "sourceName": "Right dorsal artery of penis",
+          "sha256": "b4d6f1e09e8d008d935731868cabcc55a52bd8ad6f2dc9b498e9d16ab628f8a4",
+          "bytes": 339533,
+          "vertices": 2838,
+          "triangles": 5108
+        },
+        {
+          "release": "4.3",
+          "element": "FJ3593",
+          "concept": "FMA20818",
+          "sourceName": "Right dorsal artery of penis",
+          "sha256": "d5f402f7635edf03a99aac33cd3ee8d0226d15df2d0e130e99062d876223ba18",
+          "bytes": 92246,
+          "vertices": 792,
+          "triangles": 1542
+        },
+        {
+          "release": "4.3",
+          "element": "FJ3496",
+          "concept": "FMA20819",
+          "sourceName": "Left dorsal artery of penis",
+          "sha256": "c00e4b69b0a645b56364e6926197eecfc5e39a5674e7847b28f8bedfdd48ab31",
+          "bytes": 337280,
+          "vertices": 2867,
+          "triangles": 5076
+        },
+        {
+          "release": "4.3",
+          "element": "FJ3497",
+          "concept": "FMA20819",
+          "sourceName": "Left dorsal artery of penis",
+          "sha256": "2e87265cfd69c102ff0191f868a71bac7b96a35ee6ad7288b5ff002c24ed14a2",
+          "bytes": 86876,
+          "vertices": 758,
+          "triangles": 1456
+        }
+      ]
+    },
+    {
+      "id": "dorsal-veins",
+      "fma": "FMA21354",
+      "source": "4.3",
+      "concepts": [
+        "FMA21354",
+        "FMA21384"
+      ],
+      "sourceName": "deep and superficial dorsal veins of penis",
+      "elements": [
+        {
+          "release": "4.3",
+          "element": "FJ2056",
+          "concept": "FMA21354",
+          "sourceName": "Deep dorsal vein of penis",
+          "sha256": "f3cf0f497517c5ba61d9ec2c7845d1d5bdbc57010f247f5dc356ca1619cca312",
+          "bytes": 145169,
+          "vertices": 1228,
+          "triangles": 2356
+        },
+        {
+          "release": "4.3",
+          "element": "FJ2208",
+          "concept": "FMA21384",
+          "sourceName": "Superficial dorsal vein of penis",
+          "sha256": "1c77fab4f49bd9f2edd09d5a7f7337b4b6845246c2acd98ad0e49254177ee205",
+          "bytes": 87861,
+          "vertices": 743,
+          "triangles": 1480
+        }
+      ]
+    },
+    {
+      "id": "urinary-bladder",
+      "fma": "FMA15900",
+      "source": "3.0",
+      "concepts": [
+        "FMA15900"
+      ],
+      "sourceName": "urinary bladder",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA15900",
+          "concept": "FMA15900",
+          "sourceName": "urinary bladder",
+          "sha256": "7a6badc84de63ac6c62acc8c2de1084c19885df1cbceb17ae02354c000a45b68",
+          "bytes": 200884,
+          "vertices": 2010,
+          "triangles": 4016
+        }
+      ]
+    },
+    {
+      "id": "rectum",
+      "fma": "FMA14544",
+      "source": "3.0",
+      "concepts": [
+        "FMA14544"
+      ],
+      "sourceName": "rectum",
+      "elements": [
+        {
+          "release": "3.0",
+          "element": "FMA14544",
+          "concept": "FMA14544",
+          "sourceName": "rectum",
+          "sha256": "dcbca766ae18f7404082fa34a7a33ed805dd07917ef28097e01e78b4c531df4f",
+          "bytes": 441284,
+          "vertices": 4414,
+          "triangles": 8824
+        }
+      ]
+    }
+  ]
+}
