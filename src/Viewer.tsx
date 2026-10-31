@@ -106,11 +106,11 @@ function CameraControls({
       new Vector3(
         // Lateral looks from the patient's right (display −X), the classic
         // sagittal view of the bladder, prostate, rectum and penis.
-        ...((view === 'Posterior' ? [0, 0, -1] : view === 'Lateral' ? [-1, 0, 0] : [0, 0, 1]) as [
-          number,
-          number,
-          number,
-        ]),
+        ...((view === 'Posterior'
+          ? [0, 0, -1]
+          : view === 'Right lateral'
+            ? [-1, 0, 0]
+            : [0, 0, 1]) as [number, number, number]),
       ).normalize()
     const fit = (direction: Vector3) =>
       Math.min(
