@@ -210,13 +210,13 @@ export const groups = [
   'Neighbouring organs',
 ] as const satisfies readonly Group[]
 export const byId = Object.fromEntries(structures.map((s) => [s.id, s]))
-export type View = 'Anterior' | 'Lateral' | 'Posterior'
+export type View = 'Anterior' | 'Right lateral' | 'Posterior'
 export const tour: { id: string; title: string; text: string; view: View; isolate?: boolean }[] = [
   {
     id: 'prostate',
     title: 'Below the bladder',
     text: 'From the side, the prostate sits just under the bladder, in front of the rectum and above the root of the penis.',
-    view: 'Lateral',
+    view: 'Right lateral',
   },
   {
     id: 'testes',
@@ -240,7 +240,7 @@ export const tour: { id: string; title: string; text: string; view: View; isolat
     id: 'urethra',
     title: 'One shared channel',
     text: 'The urethra is isolated here. It leaves the bladder, passes through the prostate and runs the length of the penis. Restore all to see what surrounds it.',
-    view: 'Lateral',
+    view: 'Right lateral',
     isolate: true,
   },
 ]

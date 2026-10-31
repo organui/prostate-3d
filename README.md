@@ -40,11 +40,11 @@ The app is static and uses relative build paths. No deployment has been performe
 - Keyboard: Tab/Enter for controls, arrow keys to rotate the focused model, `+`/`-` to zoom, Escape closes the panel and returns focus to its toggle.
 
 <details>
-<summary>Selection, lateral view and mobile screenshots</summary>
+<summary>Selection, right lateral view and mobile screenshots</summary>
 
 ![Urethra selected with the rest ghosted](docs/screenshots/anatomy.png)
 
-![Lateral view showing the bladder, prostate, rectum and penis](docs/screenshots/lateral.png)
+![Right lateral view showing the bladder, prostate, rectum and penis](docs/screenshots/lateral.png)
 
 <img src="docs/screenshots/mobile.png" alt="Mobile male reproductive explorer" width="300" />
 
